@@ -2,10 +2,6 @@ module Main where
 import qualified Data.Map as Map
 import Data.Maybe
 import Data.List
--- import System.IO
--- import Data.String
--- import Data.Map
--- import Debug.Trace
 
 up    (a, b) = (a, b + 1)
 down  (a, b) = (a, b - 1)
